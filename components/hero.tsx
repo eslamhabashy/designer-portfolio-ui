@@ -101,7 +101,7 @@ export function Hero({
             scrollTrigger: {
               trigger: containerRef.current,
               start: "top top",
-              end: "bottom top",
+              end: "+=400", // Vanish faster
               scrub: 1,
               immediateRender: false,
             },
